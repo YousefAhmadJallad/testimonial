@@ -1,0 +1,242 @@
+@import './base.css';
+
+/*Navbar starts*/
+
+.header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 99999999999;
+
+}
+
+
+.logo a img{
+    width: 50px;
+    height: 50px;
+   
+}
+
+.logo a {
+    font-family: var(--subFont);
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    gap:5px
+    
+}
+
+.boldEdit{
+    font-weight: bolder;
+}
+
+.list ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 10px;
+    font-family: var(--mainFont);
+    
+}
+
+.auth a{
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-family: var(--mainFont);
+    font-weight: bolder;
+    
+}
+
+.login{
+    color: var(--mainColor);
+}
+
+.register{
+    color: white;
+    background-color: var(--mainColor);
+
+}
+
+.footer{
+    background-color: #393E46;
+
+}
+/*Navbar Ends*/
+
+/*Testimonials starts*/
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+    
+
+}
+.title{
+    margin: auto;
+    margin-top: 50px;
+    font-family: var(--titleFont);
+    font-size: 30px;
+}
+
+
+
+
+.testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    width: 49%;
+    box-shadow: 0px 8.23719596862793px 8.23719596862793px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.testimonial :after{
+    content: '';
+    border-top: 30px solid #F4F4F4;
+    border-right: 30px solid #F4F4F4;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.user-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.user-data{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: var(--mainFont);
+    padding-top: 10px;
+
+}
+
+.user-data :first-child{
+    font-weight: bolder;
+}
+
+.rating{
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.rating img{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+.testimonial .user-info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial p{
+    padding-left: 20px;
+    margin-right: auto;
+    padding-bottom: 20px;
+    font-family: var(--mainFont);
+    font-size: 20px;
+}
+
+
+
+/*Footer starts*/
+
+.start{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.start p{
+    font-family: var(--mainFont);
+    color: #f4f4f4;
+    line-height: 30px;
+}
+
+
+
+.footerlogo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    gap:5px   
+}
+
+
+.footerlogo img{
+    width: 50px;
+    height: 50px;
+}
+
+.footerlogo p{
+    font-family: var(--subFont);
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+
+.icons a img{
+
+    border: 1px solid ;
+    padding: 5px 5px;
+    height: 40px;
+    width: 40px;
+    border-color: #FFFFFF;
+}
+
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 40%;
+}
+    
+.footer-title{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.footer-title h2{
+    padding-bottom: 30px;
+    font-family: var(--subFont);
+    font-weight: bolder;
+    color: #f4f4f4;
+}
+.footer-title a{
+    color: #FFFFFF;
+    font-family: var(--subFont);
+    font-weight: normal;
+}
+
+/*Footer Ends*/

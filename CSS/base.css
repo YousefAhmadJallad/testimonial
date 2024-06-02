@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --mainFont: "Poppins", sans-serif;
+    --subFont: "Roboto", sans-serif;
+    --titleFont: "Mada", sans-serif;
+    --mainColor: #545BE8;
+    --subColor: #141E32;
+    
+
+}
+
+.container{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+
+}
+body{
+    height: 5000px;
+}
